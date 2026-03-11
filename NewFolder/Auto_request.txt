@@ -1,0 +1,50 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:zna="http://ZNA.UW.RADServices" xmlns:zna1="http://schemas.datacontract.org/2004/07/ZNA.UW.RADServices.DataContract.MessageContracts">
+   <soapenv:Header>
+      <zna:userId></zna:userId>
+   </soapenv:Header>
+   <soapenv:Body>
+      <zna:AutoModelPriceRequest>
+         <!--Optional:-->
+         <zna:entTistmp></zna:entTistmp>
+         <!--Optional:-->
+         <zna:sourceSystem>RAD</zna:sourceSystem>
+         <!--Optional:-->
+         <zna:submissionId>2475325</zna:submissionId>
+         <!--Optional:-->
+         <zna:transactionId>123</zna:transactionId>
+         <!--Optional:-->
+         <zna:SAN>16446400000000</zna:SAN>
+         <!--Optional:-->
+         <zna:CorrectedYearStarted></zna:CorrectedYearStarted>
+         <!--Optional:-->
+         <zna:LossDataInformation>
+            <!--Optional:-->
+            <zna1:PriorCarrierDataDoesntExist>Y</zna1:PriorCarrierDataDoesntExist>
+            <!--Optional:-->
+            <zna1:PriorCarrierTemplateNm></zna1:PriorCarrierTemplateNm>
+            <!--Optional:-->
+            <zna1:ZurichPolicyNo></zna1:ZurichPolicyNo>
+         </zna:LossDataInformation>
+         <!--Optional:-->
+         <zna:TMPInformation>
+            <!--Optional:-->
+            <zna1:DepartmentOfTransportation></zna1:DepartmentOfTransportation>
+            <!--Optional:-->
+            <zna1:MotorCarrierNumber></zna1:MotorCarrierNumber>
+            <!--Optional:-->
+            <zna1:SelectedFinalCall>Higher risk exposure than typical for similar fleets</zna1:SelectedFinalCall>
+         </zna:TMPInformation>
+         <!--Optional:-->
+         <zna:TelematicsInformation>
+            <!--Optional:-->
+            <zna1:EffectivenessOfSafetyTelematics>Excellent</zna1:EffectivenessOfSafetyTelematics>
+            <!--Optional:-->
+            <zna1:IsRiskEmployingTelematics>Yes</zna1:IsRiskEmployingTelematics>
+            <!--Optional:-->
+            <zna1:LengthOfUsagOfSafetyTelematics>Greater than 3 Years</zna1:LengthOfUsagOfSafetyTelematics>
+            <!--Optional:-->
+            <zna1:VehicleSafetyTelmaticsUsage>25% - 65% of the Fleet</zna1:VehicleSafetyTelmaticsUsage>
+         </zna:TelematicsInformation>
+      </zna:AutoModelPriceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

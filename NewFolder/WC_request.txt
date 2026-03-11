@@ -1,0 +1,79 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:zna="http://ZNA.UW.RADServices" xmlns:zna1="http://schemas.datacontract.org/2004/07/ZNA.UW.RADServices.DataContract">
+   <soapenv:Header>
+      <zna:userId></zna:userId>
+   </soapenv:Header>
+   <soapenv:Body>
+      <zna:WCTargetPriceRequest>
+         <!--Optional:-->
+         <zna:entTistmp></zna:entTistmp>
+         <!--Optional:-->
+         <zna:sourceSystem>RAD</zna:sourceSystem>
+         <!--Optional:-->
+         <zna:submissionId>2722387</zna:submissionId>
+         <!--Optional:-->
+         <zna:transactionId>1</zna:transactionId>
+         <!--Optional:-->
+         <zna:SAN>67378400000000</zna:SAN>
+         <!--Optional:-->
+         <zna:LossDataInformation>
+            <!--Optional:-->
+            <zna1:CorrectedYearStarted></zna1:CorrectedYearStarted>
+            <!--Optional:-->
+            <zna1:PriorCarrierDataDoesntExist>N</zna1:PriorCarrierDataDoesntExist>
+            <!--Optional:-->
+            <zna1:PriorCarrierTemplateNm>RAD__PRIORCARRIER</zna1:PriorCarrierTemplateNm>
+            <!--Optional:-->
+            <zna1:ZurichPolicyNo></zna1:ZurichPolicyNo>
+         </zna:LossDataInformation>
+         <!--Optional:-->
+         <zna:TMPInformation>
+            <!--Optional:-->
+            <zna1:ReferForTerrFlag>N</zna1:ReferForTerrFlag>
+            <!--Optional:-->
+            <zna1:TAWTerrPremium></zna1:TAWTerrPremium>
+         </zna:TMPInformation>
+         <!--Optional:-->
+         <zna:ServerityPotentialInfo>
+            <!--Optional:-->
+            <zna1:DominantClassesSevPotFinalCall>1-Insured has substantially less severity potential than is contemplated by their WC classes</zna1:DominantClassesSevPotFinalCall>
+            <!--Optional:-->
+            <zna1:RecentChangeinControlsorExposures>1 - Change causes ZEUM to substantially overstate the loss potential</zna1:RecentChangeinControlsorExposures>
+            <!--Optional:-->
+            <zna1:SecondaryClassesSevPotFinalCall>1 - Insured has substantially less severity potential than is contemplated by their WC classes</zna1:SecondaryClassesSevPotFinalCall>
+            <!--Optional:-->
+            <zna1:WeightforDominantClasses>100% (minimal secondary classes premium)</zna1:WeightforDominantClasses>
+            <!--Optional:-->
+            <zna1:YearsSinceSignificantChangeinControlsorExposures>Less than 1 year</zna1:YearsSinceSignificantChangeinControlsorExposures>
+         </zna:ServerityPotentialInfo>
+         <!--Optional:-->
+         <zna:CoverageAnalysisInfo>
+            <!--Optional:-->
+            <zna1:AdditionalCoveragesApplicableAccount>N</zna1:AdditionalCoveragesApplicableAccount>
+            <!--Optional:-->
+            <zna1:AlternateEmployerEndorsement>N</zna1:AlternateEmployerEndorsement>
+            <!--Optional:-->
+            <zna1:BlanketWaiverofSubrogation>N</zna1:BlanketWaiverofSubrogation>
+            <!--Optional:-->
+            <zna1:ForeignVoluntaryCompensation>N</zna1:ForeignVoluntaryCompensation>
+            <!--Optional:-->
+            <zna1:IllinoisWaiverofKoteckiCapEndorsement>N</zna1:IllinoisWaiverofKoteckiCapEndorsement>
+            <!--Optional:-->
+            <zna1:PctChargeforAlternateEmployer>N</zna1:PctChargeforAlternateEmployer>
+            <!--Optional:-->
+            <zna1:PctChargeforVoluntaryCompensation>N</zna1:PctChargeforVoluntaryCompensation>
+            <!--Optional:-->
+            <zna1:PcteChargeforForeignVoluntaryCompensation>N</zna1:PcteChargeforForeignVoluntaryCompensation>
+            <!--Optional:-->
+            <zna1:SpecificWaiverofSubrogation>N</zna1:SpecificWaiverofSubrogation>
+            <!--Optional:-->
+            <zna1:USLHCoverageonanIfanyBasis>N</zna1:USLHCoverageonanIfanyBasis>
+            <!--Optional:-->
+            <zna1:VoluntaryCompensationEndorsement>N</zna1:VoluntaryCompensationEndorsement>
+            <!--Optional:-->
+            <zna1:WaiverofSubrogation>N</zna1:WaiverofSubrogation>
+            <!--Optional:-->
+            <zna1:WestVirginiaBroadFormEmployersLiabilityEndorsement>N</zna1:WestVirginiaBroadFormEmployersLiabilityEndorsement>
+         </zna:CoverageAnalysisInfo>
+      </zna:WCTargetPriceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
