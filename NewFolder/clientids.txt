@@ -1,0 +1,19 @@
+QA:
+
+Client_id: 1de27daab63a4414b007af6a981ace15
+Client_secret : Be00F1ddA2f2407F948c40e0946594f2
+
+ClientID : 1de27daab63a4414b007af6a981ace15
+client_Secret: Be00F1ddA2f2407F948c40e0946594f2 
+
+
+
+Prod:
+
+client_id: c02970515c214b0b83517dfc3935f71c
+client_secret : 646C1c37F19D414c99e38b043228C75F
+
+
+client_id : c02970515c214b0b83517dfc3935f71c
+client_Secret : 646C1c37F19D414c99e38b043228C75F
+   

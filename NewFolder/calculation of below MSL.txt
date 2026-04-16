@@ -1,0 +1,67 @@
+Calculation of Losses Below MSL:
+MSL = 2,16,150
+
+Formula to calculate Losses Below MSL: (Sum of Total Losses - Final Loss Amt) +  SumLossCappedByMSL - (NoAbvMSL * MSLVal)
+
+Final Loss Amt = Sum of (Total Loss Amount + Total ALAE) = (990000+25038) =  1,015,038
+
+SumLossCappedByMSL:
+
+LossCappedByMSL is calculated using the Loss Amount and ALAE w.r.t Term Effective year
+
+
+Term Effective Date: 09/01/2019
+
+Loss Amount: 0  
+ALAE Amount: 0
+
+LossCappedByMSL  - Takes the min values between MSL Val and Final Value 
+Where in Final Value = Min value + ALAE Amount 
+         Min Value  = Takes the min value between Loss Amt and 100,000
+
+Min Value = 0(Since Loss Amount(0) is less than 100,000)
+Final Value = 0+0=0
+LossCappedByMSL = 0
+No Above MSL = 0 (Since LossCappedByMSL(0) is less than MSL(2,16,150))
+
+Term Effective Date: 09/01/2018
+
+Loss Amount: 990000 
+ALAE Amount: 25038
+
+LossCappedByMSL  - Takes the min values between MSL Val and Final Value 
+Where in Final Value = Min value + ALAE Amount 
+         Min Value  = Takes the min value between Loss Amt and 100,000
+
+Min Value = 100,000(Since 100,000 is less than Loss Amount(990000))
+Final Value = 100,000+25,038=1,25,038
+LossCappedByMSL = 125038
+No Above MSL = 0 (Since LossCappedByMSL(125038) is less than MSL(2,16,150))
+
+
+Term Effective Date: 09/01/2017
+
+Loss Amount: 0  
+ALAE Amount: 0
+
+LossCappedByMSL  - Takes the min values between MSL Val and Final Value 
+Where in Final Value = Min value + ALAE Amount 
+         Min Value  = Takes the min value between Loss Amt and 100,000
+
+Min Value = 0(Since Loss Amount(0) is less than 100,000)
+Final Value = 0+0=0
+LossCappedByMSL = 0
+No Above MSL = 0 (Since LossCappedByMSL(0) is less than MSL(2,16,150))
+
+
+SumLossCappedByMSL = 1,25,038
+
+
+Finally , Losses Below MSL: (Sum of Total Losses - Final Loss Amt) +  SumLossCappedByMSL - (NoAbvMSL * MSLVal) 
+
+= (10,29,447 - 10,15,038) + 1,25,038 -(0 * 2,16,150)
+= 1,39,447
+
+
+
+

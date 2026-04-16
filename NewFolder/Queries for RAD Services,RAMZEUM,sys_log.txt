@@ -1,0 +1,21 @@
+-->To check RAD Services Query:
+
+select top 10 * from enprs_undg..sys_log_Ws(nolock) where SYS_SRC_CD in ('RA','RS') and SYS_LOG_TYP_ID in (91,92) order by ENT_TISTMP desc
+
+-->To check sys_log Query:
+
+select top 550 *from enprs_undg..SYS_LOG(nolock)
+ 
+where SYS_SRC_CD='WB'
+ 
+and SYS_LOG_TYP_ID=4
+order by ENT_TISTMP desc 
+-----------------------------------------------------
+select top 300 * from enprs_undg..sys_log(nolock) where SYS_SRC_CD='WB'
+ 
+and SYS_LOG_TYP_ID=4 and CNTX_DESC like '%The value for column%'
+order by ENT_TISTMP desc
+
+-->To check RAMZEUM_SYS_LOG Query:
+
+select top 10 * from RAMZEUM_SYS_LOG(nolock) where CNTX_ID_TXT='MicroSoftGraph.ExposureRatingBareMetal' order by ENT_TISTMP desc

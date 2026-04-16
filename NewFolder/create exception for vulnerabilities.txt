@@ -1,0 +1,42 @@
+Go to swathi service now and click on Exception Overview from Policy  Exceptions
+
+click on new in the right button
+1.) give the exception name- it is the main name like for example 'ZNA_RAD_MS_Vulnerabilities'
+2.)valid to date need to be given and the same date gors for deffered until date
+3.) Reason needs to be Remediate with time extension
+4.) Bu needs to be ZNA(NAC RCIS)
+5.) Business justification needs to be given like in qa will be providing the fix later the fix will be done to production 
+other all brackets same data
+
+
+next in condition  click on first selector and click on Configuration -> name then click on is one of and here give the servers next click on and
+ZNAWRZMSW250GUU
+ZNAWRZMSWG0MCV9
+ZNAWRADUSWLQ5VN
+ZNAWRAMDSWDTRCQ
+ZNAWRZMDSWP2P2X
+ZNAWRADPSW7JYKJ
+
+next click on vulnerbailility->ID then click on is one of and here give the 
+Vulnerability ID
+QID-92064
+QID-92067
+QID-92080
+QID-92100
+QID-92112
+QID-110322
+QID-110324
+QID-110341
+QID-110348
+QID-110352
+QID-110361
+QID-110366
+QID-110368
+QID-110370
+QID-110376
+QID-110379
+QID-92126
+ next click on 'and' next click on preview button then chekc the data whether every id get into place and give the commentsthe matter which we given for business justification then click on save 
+
+
+similar way we created for ZNA_RAD_MS_Vulnerbailities if any doubt go and chekc in it

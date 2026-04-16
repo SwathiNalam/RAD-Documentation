@@ -1,0 +1,17 @@
+if they ask for Booked Submission numbers 
+
+Reg Doc - sp_helptext GetBKD_POL_REGT_DOC
+
+if they ask for Booked Submission numbers  we need to check in this sp's
+
+Account ROE - GetBKD_POL_ACCT_ROE
+
+for other REquest WC_CAT analysis
+ we need to execute the Request if it is fail
+select * from RMS_JOB_STS
+update RMS_JOB_STS set ent_tistmp=GETDATE()
+
+2145291
+2146674
+
+whenever they say to provide the test data then frst for WC_CAT analysis request 

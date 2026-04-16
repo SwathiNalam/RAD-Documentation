@@ -1,0 +1,25 @@
+To check for Experience rating
+    ACCT_LOS_HIST_EXPR_RATG_ANAL_IPRTR_DATA
+
+    ACCT_LOS_HIST_EXPR_RATG_ANAL_IPRTR_DATA
+
+To check whether is there Exceptions raised.
+    select * from ENPRS_UNDG..SYS_LOG (nolock)
+where SYS_LOG_TYP_ID = 4
+
+and CNTX_DESC like '%LossHistory%'
+order by ENT_TISTMP desc
+
+
+To check whether it is CLaim history or it is derived through Prior carrier Template:
+
+Select * from ACCT_CLAIM_LOB where ws_Aanl 
+
+
+the drivers record calculation
+
+The total drivers data will be added by clear count,acceptable count, High risk drivers                                           
+ First the total drivers will be 0                                                                    
+then itotaldrivers= itotaldrivers +clearcount here in this the clearcount consists of 31 so the itotaldrivers=itotaldrivers+31; itotaldrivers=31   
+then it will come to Accpetbale count itotaldrivers=itotaldrivers+Acceptablecount; itotaldrivers=itotaldrivers+2; itotaldrivers=33                                                                                                                                                                          
+then it will calculate the high risk count itotaldrivers=itotaldrivers+highriskcount; itotaldrivers=itotaldrivers+5; itotaldrivers=38 
